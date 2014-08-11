@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chat.Client.Win8.1", "Chat.Client.Win8.1\Chat.Client.Win8.1.vcxproj", "{E829A831-95F1-4C81-9AD5-ECB6DA7BAAC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E829A831-95F1-4C81-9AD5-ECB6DA7BAAC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E829A831-95F1-4C81-9AD5-ECB6DA7BAAC0}.Debug|Win32.Build.0 = Debug|Win32
+		{E829A831-95F1-4C81-9AD5-ECB6DA7BAAC0}.Release|Win32.ActiveCfg = Release|Win32
+		{E829A831-95F1-4C81-9AD5-ECB6DA7BAAC0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

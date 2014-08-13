@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Заголовочные файлы\View">
+      <UniqueIdentifier>{9bb3beb0-401f-4f5d-8fd9-2b314cc0a09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Controller">
+      <UniqueIdentifier>{1e662902-c803-4f80-a847-501161bc147f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Model">
+      <UniqueIdentifier>{45f4ff84-e6f2-4b4f-a072-4f77d5e70304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Model">
+      <UniqueIdentifier>{72b221f7-7169-4e0d-8b0e-6565d6dafb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Controller">
+      <UniqueIdentifier>{d3b7907c-8b12-4983-8fc3-e483d294d01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\View">
+      <UniqueIdentifier>{d975dcc7-e0f9-4438-8109-2cc370478f80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,6 +51,9 @@
     <ClInclude Include="Resource.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="MyContacts.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chat.Client.Win8.1.cpp">
@@ -42,6 +63,9 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MyContacts.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

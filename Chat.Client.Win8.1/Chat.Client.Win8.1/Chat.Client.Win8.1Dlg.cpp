@@ -6,6 +6,7 @@
 #include "Chat.Client.Win8.1.h"
 #include "Chat.Client.Win8.1Dlg.h"
 #include "afxdialogex.h"
+#include "MyContacts.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -62,6 +63,7 @@ BEGIN_MESSAGE_MAP(CChatClientWin81Dlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDOK, &CChatClientWin81Dlg::OnBnClickedOk)
 END_MESSAGE_MAP()
 
 
@@ -150,3 +152,18 @@ HCURSOR CChatClientWin81Dlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CChatClientWin81Dlg::OnBnClickedOk()
+{
+	//CChatClientWin81Dlg Login_dialog;
+	
+	MyContacts Contacts_dialog;
+	CDialog::OnOK();
+
+	Contacts_dialog.DoModal();
+	//dlg0.EndDialog(0);
+	
+	// TODO: добавьте свой код обработчика уведомлений
+	CDialogEx::OnOK();
+}
